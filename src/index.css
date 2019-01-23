@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel_wrapper {
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 40px;
+  background-color: white;
+  position: relative;
+  max-width: 340px;
+}
+
+.indicator {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+}
+
+.indicator_green {
+  background-color: rgb(76, 245, 76);
+}
+
+.indicator_red {
+  background-color: rgb(236, 65, 80);
+}
+
+.switch_wrapper {
+  margin-bottom: 20px;
+}
+
+.switch_list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.switch {
+  display: inline-block;
+  width: 85px;
+  height: 137px;
+  background-image: url(../images/switch.jpg);
+}
+
+.unknown_switch {
+  background-image: none;
+  position: relative;
+}
+
+.switch_off {
+  background-position: -17px -46px;
+}
+
+.switch_on {
+  background-position: -116px -46px;
+}
+
+.fa-question {
+  font-size: 109px;
+  position: absolute;
+  top: 10px;
+}
+
+.fa_off {
+  display: none !important;
+}
+
+.messages {
+  text-align: center;
+  height: auto;
+  min-height: 30px;
+  word-wrap: break-word;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.button_wrapper {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  color: white;
+  cursor:pointer;
+}
+
+.button_connect {
+  background-color: rgb(76, 245, 76);
+}
+
+.button_connect_disable {
+  background-color: rgba(76, 245, 76, 0.376);
+  cursor: auto;
+}
+
+.button_disconnect {
+  background-color: rgb(236, 65, 80);
+}
+
+.button_disconnect_disable {
+  background-color: rgba(236, 65, 79, 0.376);
+  cursor: auto;
+}
